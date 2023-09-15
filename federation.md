@@ -17,9 +17,9 @@ This document defines standard practices to federate communities using ActivityP
 ## Terminology
 Terminology in this document is not expressly used to propose new types, and can be represented as `Actor` or `Service` types.  However for clarity we will define the following:
 
-- `Topic` is the primary building block of Yuforium's federation model, and represents the subject matter of connection, such as as a favorite hobby or interest.
+- `Topic` is the primary building block of Yuforium's federation model, and represents the subject matter of connection, such as a favorite hobby or interest.
 
-- `Community` represents an aggregatation of people, relationships, and content.  Usually this may be centered on various topics,   It can be an explicit representation or a broader network of connected communities.
+- `Community` represents an aggregation of people, relationships, and content.  Usually this may be centered on various topics,   It can be an explicit representation or a broader network of connected communities.
 
 - `Forum` represents a service endpoint that federates community activity and manages a set of users that can post content to the forum outbox and broadcast messages to a larger, federated community.  This type of resource may also include moderators who manage the content that appears on the instance.
 
